@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  usuario_m: one
+  sala: one
+  local: one
+  implemento: one
+  estado: MyString
+
+two:
+  usuario_m: two
+  sala: two
+  local: two
+  implemento: two
+  estado: MyString
