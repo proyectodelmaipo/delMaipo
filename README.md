@@ -19,3 +19,24 @@ para crear un registro de una tabla en la base de datos
 NombreDeLaTabla.create (nombreAtributo: atributo, nombreAtributo2: atributo2)
 
 #esto va sin punto y coma, esto no es java
+
+
+Para git
+
+git init
+
+#inicializar el repo de git, el git ignore no se sube, presonalisas lo que no quieres que se suba
+
+git add *
+
+git add --all
+
+#agregar archivos a  el repo
+
+git commit -m "titulo del commit"
+
+#hacer un commit
+
+git push origin master
+
+#subir el commit a la rama master
