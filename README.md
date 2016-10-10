@@ -21,7 +21,7 @@ NombreDeLaTabla.create (nombreAtributo: atributo, nombreAtributo2: atributo2)
 #esto va sin punto y coma, esto no es java
 
 
-Para git
+#Para git
 
 git init
 
@@ -40,3 +40,13 @@ git commit -m "titulo del commit"
 git push origin master
 
 #subir el commit a la rama master
+
+#Para rails
+
+rails g model NombredelModelo
+
+#generar un modelo, es el reflejo de una tabla de una bd, patron datos
+
+rails g controller NombredelControlador
+
+#genera un controlador puede ir acompañador de los metos index show create delete??? --no me acuerdo bn, son los vervos http, se genera el controlador con las acciones vacias tu debes crear las acciones, las rutas se crean de manera inmediata las rutas, estas son NombreDeLaTabla/accion

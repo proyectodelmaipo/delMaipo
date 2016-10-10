@@ -1,6 +1,6 @@
 class UsuarioMsController < ApplicationController
 
-  def show
-    @muscio =UsuarioM.all
+  def index
+    @usuario_ms =UsuarioM.all
   end
 end
