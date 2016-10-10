@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para crear un registro en en la base de datos de manera coordinada SIEMPRE deben ser de manera coordinada
+SIEMPRE programadora maala mala debe ser siempre de esta manera (si no debes cargar la semilla y no queremos eso nuevamente)
 
-Things you may want to cover:
+ rails console
 
-* Ruby version
 
-* System dependencies
+ #entras a la consola de rails
 
-* Configuration
+ NombreDeLaTabla.all
 
-* Database creation
+ UsuarioM.all
 
-* Database initialization
+#para ver todos los registros
 
-* How to run the test suite
+para crear un registro de una tabla en la base de datos
 
-* Services (job queues, cache servers, search engines, etc.)
+NombreDeLaTabla.create (nombreAtributo: atributo, nombreAtributo2: atributo2)
 
-* Deployment instructions
-
-* ...
+#esto va sin punto y coma, esto no es java
